@@ -27,5 +27,4 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'linux'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'NODE|14-lts'
