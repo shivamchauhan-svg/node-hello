@@ -16,6 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npm start node index.js
+    npm install -g typescript@4.1.2
+    npm install -g
+    
   displayName: 'npm install and build'
